@@ -19,6 +19,7 @@ describe('app routes', () => {
     return mongoose.connection.close();
   });
 
+  // eslint-disable-next-line no-unused-vars
   let user; 
   beforeEach(async() => {
     user = await User.create({
